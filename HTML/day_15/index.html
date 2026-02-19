@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day_15</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>input type="file"</h2>
+      <form>
+        <input type="file" />
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+    <div class="container">
+      <h2>Attribute: disabled</h2>
+      <form>
+        <input
+          type="text"
+          placeholder="enter text"
+          maxlength="5"
+          minlength="2"
+          required
+          readonly
+          value="12314"
+        />
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>Attribute: disabled</h2>
+      <form>
+        <input
+          type="text"
+          placeholder="enter text"
+          maxlength="5"
+          minlength="2"
+          required
+          disabled
+          value="12315"
+        />
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>Attribute: required</h2>
+      <form>
+        <input
+          type="text"
+          placeholder="enter text"
+          maxlength="5"
+          minlength="2"
+          required
+        />
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>Attribute: minlength</h2>
+      <form>
+        <input
+          type="text"
+          placeholder="enter text"
+          maxlength="5"
+          minlength="2"
+        />
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>Attribute: maxlength</h2>
+      <form>
+        <input type="text" placeholder="enter text" maxlength="5" />
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>submit Button</h2>
+      <form>
+        <input type="text" placeholder="enter text" />
+        <input type="password" placeholder="tel" />
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>Reset Button</h2>
+      <form>
+        <input type="text" placeholder="enter text" />
+        <input type="password" placeholder="tel" />
+        <input type="reset" value="Reset" />
+      </form>
+    </div>
+
+    <div style="text-align: center">
+      <h2>textarea</h2>
+      <textarea rows="5" cols="30" placeholder="enter text"></textarea>
+    </div>
+
+    <div class="container">
+      <h2>Drop down list with group</h2>
+      <form>
+        <select>
+          <optgroup label="programing language">
+            <option>Java</option>
+            <option>python</option>
+            <option>c#</option>
+            <option>c++</option>
+          </optgroup>
+          <optgroup label="framework">
+            <option>Springboot</option>
+            <option>Django</option>
+            <option>angular</option>
+            <option>ASP.net</option>
+          </optgroup>
+          <optgroup label="Library">
+            <option>React Js</option>
+            <option>Servlet</option>
+            <option>Boostrap</option>
+            <option>JDBC</option>
+          </optgroup>
+        </select>
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>Drop down list</h2>
+      <form>
+        <select>
+          <option>select city</option>
+          <option>pune</option>
+          <option>nagpur</option>
+          <option>delhi</option>
+          <option>mumbai</option>
+        </select>
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>DataList like suggestion</h2>
+      <form>
+        <input list="datalist" placeholder="enter for search" />
+        <datalist id="datalist">
+          <option>sagar</option>
+          <option>sneha</option>
+          <option>sachin</option>
+          <option>gita</option>
+          <option>ram</option>
+        </datalist>
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>input type="checkbox"</h2>
+      <form>
+        <input type="checkbox" name="html" />HTML
+        <input type="checkbox" name="css" />CSS
+        <input type="checkbox" name="js" />JS
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>input type="radio"</h2>
+      <form>
+        <input type="radio" name="gender" />male
+        <input type="radio" name="gender" />female
+        <input type="radio" name="gender" />others
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>input type="range"</h2>
+      <form>
+        <input type="range" placeholder="range" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>input type="time"</h2>
+      <form>
+        <input type="time" placeholder="time" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>input type="date"</h2>
+      <form>
+        <input type="date" placeholder="date" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>input type="color"</h2>
+      <form>
+        <input type="color" placeholder="color" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>input type="button"</h2>
+      <form>
+        <input type="button" value="Button" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>input type="tel"</h2>
+      <form>
+        <input type="tel" placeholder="tel" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>input type="email"</h2>
+      <form>
+        <input type="email" placeholder="email" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>input type="password"</h2>
+      <form>
+        <input type="password" placeholder="password" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>input type="text"</h2>
+      <form>
+        <input type="text" placeholder="text" />
+      </form>
+    </div>
+  </body>
+</html>
