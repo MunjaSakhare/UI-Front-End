@@ -1,0 +1,10 @@
+var arr = [];
+console.log(arr);
+arr.push(100);
+console.log(arr);
+arr.push(200);
+console.log(arr);
+arr.unshift("pune");
+console.log(arr);
+arr.unshift(true);
+console.log(arr);

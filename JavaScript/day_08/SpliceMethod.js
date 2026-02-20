@@ -1,0 +1,14 @@
+var arr = [100, 200, true, "raj", null, { cname: "BNCOE", city: "pusad" }];
+console.log(arr);
+arr.splice(2, 2);
+console.log(arr);
+arr.splice(1, 0, "gita");
+console.log(arr);
+arr.splice(4, 0, "sita", "ram");
+console.log(arr);
+arr.splice(1, 0, 10);
+console.log(arr);
+arr.splice(0, 0, { city: "pune", id: 101 });
+console.log(arr);
+arr.splice(0, 0,);
+console.log(arr);
