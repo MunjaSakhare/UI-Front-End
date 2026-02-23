@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+div {
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+div button {
+    text-align: center;
+    margin: 10px 20px;
+    padding: 4px 8px;
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+}
