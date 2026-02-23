@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body id="body">
+    <h2>DOM Element</h2>
+    <button>HTML Button</button>
+    <button onclick="createDOMElemt()">Create DOM Button</button>
+    <script>
+      function createDOMElemt() {
+        let btnRef = document.createElement("button"); //<button> <button>
+        let h2Ref = document.createElement("h2");
+
+        btnRef.innerText = "Remove button";
+        h2Ref.innerText = "UI is created using Javascript.";
+
+        btnRef.style.backgroundColor = "red";
+        btnRef.style.color = "white";
+        btnRef.style.border = "none";
+        btnRef.style.outline = "none";
+        btnRef.style.padding = "15px 25px";
+        btnRef.style.margin = "10px";
+        btnRef.onclick = function () {
+          //alert("working...");
+          //  h2Ref.style.color = "green";
+
+          btnRef.remove();
+          h2Ref.remove();
+        };
+
+        document.getElementById("body").appendChild(h2Ref);
+        document.getElementById("body").appendChild(btnRef);
+      }
+    </script>
+  </body>
+</html>
